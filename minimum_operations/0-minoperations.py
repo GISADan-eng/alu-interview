@@ -3,7 +3,7 @@
 
 
 def minOperations(n):
-    """Calculate the fewest number of operations to reach exactly n H characters"""
+    """Calculate fewest operations to reach n H characters"""
     if n <= 1:
         return 0
 
