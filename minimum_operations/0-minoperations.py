@@ -1,6 +1,9 @@
 #!/usr/bin/python3
+"""Minimum number of operations to reach n H characters"""
+
 
 def minOperations(n):
+    """Calculate the fewest number of operations to reach exactly n H characters"""
     if n <= 1:
         return 0
 
